@@ -1,6 +1,6 @@
 body {
     background: #d2d2c1 url('imagens/fundo.png');
-    font-family :'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -13,17 +13,37 @@ a {
     text-decoration: none;
     font-weight: bold;
     padding: auto;
+    font-size: 25px;
 }
 
-.centralizar{
+.centralizar {
     max-width: auto;
     height: 50%;
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
-#bordas{
-    border: 30px;
-    color: #CA6B41 solid;
+
+.bordas {
+    border: 30px #CA6B41 solid;
+    text-align: center;
+}
+
+.conteudo {
+    border: 50px #CA6B41 solid;
+    padding: 300px;
+    margin: auto;
+    width: 5px;
+}
+
+tr {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+.esqueda{
+    width: 90%;
 }
