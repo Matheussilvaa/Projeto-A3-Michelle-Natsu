@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,49 @@
 
 </head>
 
-<body background="imagen/fundo2.png"  >
+<body background="imagen/fundo2.png">
+    <table>
         <tr>
-            <td colspan="2">
+            <td>
                 <a href="site.html"> Home </a>|
                 <a href="quemsomos.html"> Quem Somos </a>|
                 <a href="login.html"> Login </a>|
-                <a href="contato.html"> Contato</a>
+                <a href="https://wa.me/5534996321418"> Contato</a>
             </td>
         </tr>
+    </table>
 
     <p>
-        <p> <img src="imagen/imagem inicial.png" class="centralizar" ></p>  
-<div id="bordas" > <!-- inicio do site e div principal-->
-        <font size="6"> Aliment<strong>ação</strong> </font> <br />
-    <p> Bem-vindos ao nosso site dedicado a uma missão crucial: alimentar aqueles que necessitam. Em um mundo onde a
-        fome, ainda é uma realidade para muitos, é essencial unirmos esforços para garantir que ninguém passe
-        necessidades
-        básicas, como comida. É com esse propósito em mente que criamos este espaço online, onde a generosidade se torna
-        a
-        ponte entre aqueles que têm e aqueles que precisam, reduzindo o desperdício.</p>
-    <p>Através da plataforma Aliment<strong>ação</strong> dedicada à doação de marmitas, uma iniciativa simples, porém
-        poderosa. Através dela,
-        buscamos conectar doadores generosos, encaminhando alimentos que perderam o valor comercial e assim proporcionar
-        refeições
-        nutritivas e reconfortantes a quem mais precisa, gerando um grande impacto social e ambiental.</p>
-    <ul type="disc">
-        <li> Facilidade de Uso: Nossa plataforma foi desenvolvida com simplicidade em mente, tornando o processo de
-            doação rápido e acessível a todos. Com apenas alguns cliques, os doadores podem contribuir para uma causa
-            significativa. </li>
-    </ul>
-    </p>
-</div> <!-- final do site e div principal-->
+    <p> <img src="imagen/imagem inicial.png" class="centralizar"></p>
+    <div class="bordas"> <!-- inicio do site e div principal-->
+        <form action="">
+            <font size="5"> Doações Flexivel de acordo com seu bolso </font size> <br><br>
+
+            <input type="checkbox" name="Mensal" id=""> Mensal <br>
+            <input type="checkbox" name="Anual" id=""> Anual <br>
+            <input type="checkbox" name="Unicavez" id=""> Unica vez <br><br>
+
+
+            <select>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="outrovalor">outro valor</option>
+            </select>
+            <br>
+            <font size="5">Informe seus dados de contato: </font size> <br> <br>
+            <div class="esqueda">
+                Nome: <input type="nome"><br><br>
+                E-mail: <input type="e-mail"> <br> <br>
+                Telefone: <input type="telefone">
+            </div>
+
+            <br><br> <input type="submit" value="enviar">
+
+        </form>
+    </div> <!-- final do site e div principal-->
 
 </body>
+
 </html>
