@@ -11,21 +11,22 @@
 </head>
 
 <body background="imagen/fundo2.png">
-    <table>
-        <tr>
+    <div class="borda1"> <!-- borda do cabeçalho-->
+       <br> <tr>
             <td>
-                <a href="site.html"> Home </a>|
                 <a href="quemsomos.html"> Quem Somos </a>|
                 <a href="login.html"> Login </a>|
                 <a href="https://wa.me/5534996321418"> Contato</a>
             </td>
-        </tr>
-    </table>
+        </tr><br><br>
+    </div>
 
-    <p>
-    <p> <img src="imagen/imagem inicial.png" class="centralizar"></p>
+
+
+     <img src="imagen/imagem inicial.png" class="centralizar">
     <div class="bordas"> <!-- inicio do site e div principal-->
         <form action="">
+            <br><br>
             <font size="5"> Doações Flexivel de acordo com seu bolso </font size> <br><br>
 
             <input type="checkbox" name="Mensal" id=""> Mensal <br>
@@ -33,7 +34,7 @@
             <input type="checkbox" name="Unicavez" id=""> Unica vez <br><br>
 
 
-            <select>
+            <select class="arredonda">
                 <option value="5">5</option>
                 <option value="10">10</option>
                 <option value="15">15</option>
@@ -43,16 +44,28 @@
             <br>
             <font size="5">Informe seus dados de contato: </font size> <br> <br>
             <div class="esqueda">
-                Nome: <input type="nome"><br><br>
-                E-mail: <input type="e-mail"> <br> <br>
-                Telefone: <input type="telefone">
+                Nome <br> <input type="nome" class="arredonda"><br><br>
+                E-mail <br> <input type="e-mail" class="arredonda"> <br> <br>
+                Telefone <br> <input type="telefone" class="arredonda"><br><br>
+                Data Nascimento<br> <input type="Datanascimento" class="arredonda"> <br><br>
+                Sexo <br><select name="" class="arredonda">
+                    <option value="">Feminino</option>
+                    <option value="">Masculino</option>
+                    <option value="">Outros</option>
+                </select>
+
+                <p> Deseja receber informações sobre o impacto das doações recebidas e demais campanhas? <br></p>
+                <input type="checkbox" name="" id=""> Sim, desejo receber as informações via e-mail. <br>
+                <input type="checkbox" name="" class=""> Não <br>
             </div>
 
-            <br><br> <input type="submit" value="enviar">
 
+
+
+            <br><br> <input type="submit" value="enviar" class="arredonda"> <br><br>
         </form>
     </div> <!-- final do site e div principal-->
-
+    <img src="imagen/doação.jpeg" class="centralizar" height="300">
 </body>
 
 </html>
